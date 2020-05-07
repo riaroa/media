@@ -1,0 +1,1013 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0; padding:0;
+	width:100%; height:100%; 
+	background:url("urn:scrapbook:download:error:http://moh.gov.vn/images/nhathietke_bg.png");
+}
+ul, li {list-style:none inside none; margin:0; padding:0;}
+h1, h2, h3, h4, p {margin:0; padding:0;}
+a {text-decoration:none; color:#000 ;}
+a img{border:none;}
+.clear{ clear:both;}
+.wrapper
+{ 
+	width:1000px; margin:0 auto; background:#fff;
+	box-shadow:0 -1px 6px #949494;
+	height:100%;
+    position: relative;
+}
+.wrapper2{
+	min-height: 100%;
+    position: relative;
+    width: 100%;
+}
+.bodymain
+{
+	height: 100%;
+    padding-bottom: 100px;
+    width: 100%;
+	padding:11px 5px;
+}
+.body-left
+{
+	width:735px; margin-right:7px; float:left;
+    padding-bottom:10px;
+}
+.body-right
+{
+	width:248px; float:left;
+}
+.header
+{
+	background:url("bg-header.png") top left repeat-x;
+	position:relative;
+}
+.anhbn
+{
+	background:url("img-right-bn.png") top right no-repeat;
+	height:108px; width:100%;
+}
+li.li_nav
+{
+	background:url("sep-li.png") right top no-repeat;
+	float:left; position:relative;
+}
+li.li_nav:hover
+{
+	background:url("urn:scrapbook:download:error:http://moh.gov.vn/images/bg-li-hover.png") top left repeat-x;
+}
+.menu-active
+{
+	background:url("urn:scrapbook:download:error:http://moh.gov.vn/images/bg-li-hover.png") top left repeat-x !important;
+}
+
+li.li_nav:last-child
+{
+	
+}
+li.li_nav a.navtop1
+{
+	font-weight:bold; color:#fff; text-transform:uppercase;
+	padding:0 18px 0 20px;
+	font-size: 16px;
+}
+li.li_nav:hover a.navtop1
+{
+	color:#b80000 !important;
+}
+.menu-active  a.navtop1{color:#b80000 !important;}
+
+.h-menu
+{	height:30px; line-height:30px;
+	background:url("bg-hmenu.png") top left repeat-x;
+}
+li.li_nav .ul_nav_child
+{
+	display:none; min-width:210px; 
+	background:#f8f7f7;
+	border:3px solid #d60101; border-top:none;
+	position:absolute;	left:-3px;
+	padding:0 8px;
+	z-index:1000000;
+}
+li.li_nav:hover .ul_nav_child
+{
+	display:block; 
+}
+ul.ul_nav_child_submenu
+{
+	padding:0 15px 0;
+}
+li.li_nav_child_submenu
+{
+	padding:5px 0 0 5px; 
+    list-style:circle inside none;
+}
+li.li_nav_child_submenu a.navtop3
+{
+	font-weight:normal !important;
+	background:none;
+    color: #313131!important;
+}
+li.li_nav_child_submenu a.navtop3:hover
+{
+    text-transform: none !important;
+    color: #ca0101!important;
+}
+li.li_nav_child
+{
+	border-bottom:1px dotted #cacaca;	
+	line-height: 17px;
+    padding: 5px 0 ;
+}
+li.li_nav_child a.navtop2
+{
+	background:url("") 0px center no-repeat;
+	text-transform:none !important; color:#313131!important; padding:0 12px !important;
+    font-weight:bold;
+}
+li.li_nav_child a.navtop2:hover
+{
+	text-transform:none !important; color:#ca0101!important;
+}
+.language {
+    bottom: 23px;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+.language a:link {
+    color: #FFFFFF;
+}
+.day-search
+{
+	height:24px; background:#f1f1f1;
+}
+.ngaythang {
+    color: #000000;
+    display: inline;
+    float: left;
+    font-size: 11px;
+    font-style: italic;
+    line-height: 24px;
+    padding-left: 10px;
+}
+.input-search
+{
+	float:right; 
+	margin-right: 4px;padding-top: 2px;
+    line-height:21px;
+	/*position: absolute;right: 7px;*/
+}
+.input-search input
+{
+	font-size: 11px;
+    height: 16px;
+    width: 25px; /*Trang sua*/
+}
+.input-search img {
+    float: right;
+    padding-left: 2px;
+}
+
+.footer{/*position:absolute;*/ bottom:0; width:100%; height:0px;}
+.logo a img{border:none; padding:10px 0 0 15px}
+.menu-foot{height:25px; background:#bc2021;}
+.menu-foot ul li{float:left; line-height:25px; color:#fff;}
+.menu-foot ul li a{color:#fff !important; padding:0 10px;}
+.title-hotnews
+{
+	background:url("") top left repeat-x; height:27px; line-height:27px; padding-left:10px;
+	border-left:#e4e4e4 solid 1px;
+    font-weight: bold;
+}
+.title-hotnews a {
+                    color: #B61616 !important;
+                    font-family: Tahoma,Geneva,sans-serif;
+                    text-transform: uppercase;
+         }
+.adv{
+	padding:10px 0;
+}
+.title-moibh a:link, .title-moibh a{
+	color:#000 !important;
+}
+/*-----------------------------------------tabs news--------------------------------------------*/
+
+.tabs
+{
+	background:url("") top left repeat-x;
+	height:25px;
+	border:1px solid #e4e4e4;
+	border-bottom:3px solid #b30202;
+}
+ul.tabs li
+{
+	background:url("") right top no-repeat;
+	border-right:none;
+	float:left; 
+	height:23px; line-height:23px;
+	padding:0 6px 0 8px;
+	margin-top:2px;
+	margin-left:1px;
+}
+ul.tabs li a
+{
+	color:#000;
+}
+ul.tabs li:first-child{ margin-left:10px;}
+ul.tabs li:hover a
+{
+	color:#fff; font-weight:bold;
+}
+ul.tabs li:hover 
+{
+	background:url("") bottom left repeat-x !important;
+	border-radius:3px 3px 0 0;
+	-ms-border-radius:3px 3px 0 0;
+	-moz-border-radius:3px 3px 0 0;
+	-webkit-border-radius:3px 3px 0 0;
+	-o-border-radius:3px 3px 0 0;
+	padding:0 6px 0 8px;
+}
+.current a
+{
+	color:#fff !important; font-weight:bold;
+}
+.current
+{
+	background:url("") bottom left repeat-x !important;
+	border-radius:3px 3px 0 0 !important;
+	-ms-border-radius:3px 3px 0 0;
+	-moz-border-radius:3px 3px 0 0;
+	-webkit-border-radius:3px 3px 0 0;
+	-o-border-radius:3px 3px 0 0;
+}
+
+/*--------------------------------------------------------end tabs news------------------------------------------*/
+.frame02
+{
+	border:1px solid #e4e4e4;
+	padding: 0px 13px;
+   /* height:264px;Trang bo*/
+}
+.bignew
+{
+	width:426px; float:left;
+}
+.img-bignew img{float:left; border:1px solid #e4e4e4; padding:2px; margin-right:8px;margin-bottom: 7px;}
+.h2Title
+{
+	padding-bottom:10px;
+}
+.othernews
+{
+	float:left; width:240px; margin:0 10px 0 30px;
+    text-align: justify;
+}
+.othernews ul li
+{
+	padding:5px 0;
+}
+.othernews ul li a
+{
+	background:url("") center left no-repeat;
+	padding-left:12px;
+}
+.othernews ul li a:hover
+{
+	color:#b61616;
+}
+a.view-all {
+    background: url("") no-repeat scroll 5px center #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 11px;
+    line-height: 100%;
+    padding: 2px 3px;
+    position: absolute;
+    right: 5px;
+    top: 6px;
+}
+.boxnews{position:relative;}
+.pic-video
+{
+	width:364px; float:left; position:relative;
+	margin-top: 6px;
+}
+.fontbold{font-weight:bold;}
+img.tinvd{padding-bottom:8px;}
+ul.kqdv li
+{
+	font-weight:bold;
+	padding:8px 0;
+	border-bottom:1px dashed #cccccc;
+	list-style: inside none;
+}
+ul .kqdv li a:link {
+	color: #000000 !important;
+}
+.threebox{}
+.oncebox{width:240px; float:left; margin-right:7px;margin-top:5px !important;}
+.top-oncebox
+{
+	background:url("") top left repeat-x;
+	height:30px; line-height:30px; padding-left:10px;
+	color:#fff; font-weight:bold;
+	
+}
+.in-oncebox {height: 130px;}
+.h1InfoTinBai{border-top: 1px solid #ececec; padding-top:10px; padding-left:13px; background:url("") left 13px no-repeat;}
+.h1InfoTinBai a{font-size:11px; text-indent:0; font-style:italic; text-align:justify;}
+.hlImageTinBai{padding-bottom:13px;}
+.hlImageTinBai img{float:left; padding:0 10px 0 0;}
+.tablelist table{border-collapse:collapse; border-color:#ececec;}
+.tablelist table td{border:1px solid #ececec; padding:5px; vertical-align: middle !important;}
+.text a{font-size:11px;}
+.text a:hover{color:#B61616;}
+.icontt{border-right:none !important;}
+.texttt{width:32%; border-left:none !important;}
+
+.new-document
+{
+	background:url("") bottom left no-repeat;
+	width:246px; border:1px solid #e4e4e4;
+}
+.title-moibh
+{
+	background:url("") top left no-repeat;
+}
+
+.title-moibh  div {
+    padding: 15px 10px 10px;
+	background:url("") bottom center no-repeat;
+	font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; text-transform:uppercase;
+}
+.title-moibh img {
+    padding-right: 5px;
+}
+.info-moibh {padding: 10px 0;}
+
+.info-moibh li {
+	list-style-image:url("") !important;
+	list-style-position:outside !important;
+    padding: 5px 5px 5px 0 !important;
+    text-align: justify !important;
+}
+.info-moibh li a:hover{color:#B61616;}
+.info-moibh ul {
+    padding: 5px 0 5px 25px;
+}
+.left-bn
+{
+	/*margin-top:5px;*/
+	margin-bottom: 5px;
+    margin-top: -4px;
+}
+
+.left-bn a  img {
+	margin-top: 5px;
+}
+.boxlienket
+{
+	background:url("") top left repeat-x;
+	height:20px;
+	padding: 8px 5px;
+    margin-top: 5px;
+	border:1px solid #e6e6e6;
+}
+.boxlienket select
+{
+	font-size:11px; 
+	width:235px;
+	margin-bottom:6px;
+	
+	font-family:Verdana, Geneva, sans-serif;
+}
+.boxthamdo
+{
+	border:1px solid #E4E4E4;
+    margin-top: 5px;
+}
+.top-boxthamdo
+{
+	height:27px; line-height:27px;
+	background:url("") top right repeat-y;
+}
+.top-boxthamdo a
+{
+	text-transform:uppercase; font-weight:bold;
+	padding:6px 0 6px 30px;
+}
+.thamdo a
+{
+	background:url("") 3px center no-repeat;
+}
+.thongke a
+{
+	background:url("") 3px center no-repeat;
+}
+.block {
+    margin-bottom:10px;
+}
+.block-vote
+{
+	padding:10px 10px 15px 20px;
+}
+.block-vote p {
+    margin: 0;
+    padding: 4px 0 0 10px;
+}
+.f-action {
+    padding: 11px 0 0 16px;
+	text-align: center !important;
+}
+.nlogo{
+	width:990px;
+	height: 68px;
+}
+.nlogo h2
+{
+	background:url("") left 2px no-repeat;
+	padding-left:13px; padding-bottom:1px;
+	font-size: 12px !important;
+}
+.nlogo a
+{
+	
+}
+.nlogo a img
+{
+	border:1px solid #ececec;
+}
+.info-foot div
+{
+	float:left;
+	padding:10px 20px 0 20px;
+}
+/*---------------------------------Trang danh sach - chi tiet-----------------------------*/
+.row:after, .clearfix:after {
+    clear: both;
+}
+
+.clearfix:before, .clearfix:after, .row:before, .row:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}
+.hot-news img {
+    float: left;
+    margin-right: 20px;
+}
+.hot-news img {
+    float: left;
+    margin-right: 20px;
+}
+
+
+ul.lstNews {
+    border-top: 1px dotted #DBDBDB;
+    line-height: 16px;
+    list-style: none outside none;
+    margin: 10px 0;
+    /*quang thêm - sử dụng subsite ttbct- không bị phá chữ khi menu để bên trái*/
+    width:725px;
+    overflow:hidden;
+}
+
+ul.lstNews li {
+    border-bottom: 1px dotted #DBDBDB;
+    padding: 15px 0;
+}
+ul.lstNews li .dispImg {
+    float: left;
+    margin-right: 10px;
+}
+
+ul.lstNews p {
+    padding: 2px 0;
+}
+.cl2 {
+    color: #A60000;
+    font-size: 11px;
+}
+
+.cl2 span {
+    color: #555555;
+    font-size: 11px;
+}
+.hot-news h2 a
+{
+	font-size:10pt !important;
+}
+.path {
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.path img {
+    margin: 0 5px;
+}
+
+.hot-news a {
+    color: #555555;
+}
+.fr {
+    float: right !important;
+}
+.view-more {
+    background: url("") no-repeat scroll right 7px rgba(0, 0, 0, 0);
+    font-size: 12px;
+    padding: 4px 12px 4px 0;
+}
+.w645
+{
+	padding:0px 10px 10px 10px;
+}
+.pagination select
+{
+	font-size:11px; width:130px;
+}
+.n-title {
+    color: #A00202;
+    font-size: 18px;
+    padding: 15px 0 5px;
+}
+.n-detail p {
+    line-height: 20px;
+}
+.n-date {
+    color: #333333;
+    font-style: italic;
+}
+.n-decs {
+    font-weight: bold;
+    padding: 9px 0;
+}
+.n-content
+{
+	text-align:justify;
+}
+.n-content a
+{
+	line-height: 1px;
+}
+.n-content img {
+    max-width: 625px;
+    overflow: hidden;
+    padding: 2px;
+}
+.mgt20 {
+    margin-top: 20px !important;
+}
+.same {
+    font-size: 16px; color:#A00202;
+}
+.n-more {
+    margin: 3px 0;
+}
+.n-more li {
+    border-bottom: 1px dotted #E5E9EB;
+}
+.n-more li a {
+    background:url("") no-repeat 0 11px;
+    display: block;
+    padding: 7px 0 7px 10px;
+}
+.n-more li span {
+    color: #AAAAAA !important;
+}
+.print_doc {
+    background: url("") no-repeat 0 0;
+    color: #00285A;
+    font-size: 11px;
+    font-weight: normal;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.email_doc {
+    background: url("") no-repeat  0 -1px;
+    color: #00285A;
+    font-size: 11px;
+    font-weight: normal;
+    margin-right: 3px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+/*------------------------Trang van ban-----------------------*/
+.moh_fieldset {
+    border: 1px solid #C0C0C0;
+    border-radius: 0 0 0 0;
+    float: left;
+    font-size: 12px;
+    width: 695px;
+}
+legend {
+    margin-left: 8px;
+}
+select {
+    font-family: Verdana,sans-serif;
+    font-size: 8pt;
+}
+.MOH_td_right {
+    padding: 10px 5px 0 0;
+    text-align: right;
+}
+.styled-button-3 {
+    background-color: #5B74A8;
+    border: 1px solid #29447E;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family:Tahoma,Verdana,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    height: 24px; line-height:24px;
+    padding: 2px 6px;
+	margin-left: 47%;
+}
+.tablelist table th {
+    border-color:#d6b180 #ddd;
+    border-style: solid solid dotted;
+    border-width: 3px 1px 1px;
+    height: 30px;
+	background:#FFF4E1;
+	color:#CC1111;
+	text-align: center;
+}
+.bgdark
+{
+	background:#fffef8;
+}
+.tablelist table td ul li
+{
+	list-style:disc inside none;
+}
+.tablelist table td a:hover
+{
+	text-decoration:underline;
+}
+.MOH_DanhSachVanBan_Downloadbtn
+{
+	color:#0000FF !important;
+	font-weight:bold;
+	background:url("") center left no-repeat;
+	padding-left:18px;
+}
+
+.GridPageFirstInactive {
+    background-image: url("");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0;
+    text-decoration: none;
+}
+
+.GridPageLastActive {
+    background-image: url("");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.GridPagePreviousInactive {
+    background-image: url("");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0;
+    text-decoration: none;
+}
+
+.GridPageNextActive {
+    background-image: url("");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pagination-vb table
+{
+	float:right;
+}
+.pagination-vb table td
+{
+	border:none;
+	background:#D4D0C8;
+	padding:0 !important;
+}
+.pagination-vb table td input
+{
+	height:18px;
+}
+.styled-button-1 {
+    background-color: #FFAA22;
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+    color: #333333;
+    cursor: pointer;
+    font-family: 'Helvetica Neue',Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    height: 22px;
+    margin-top: 3px;
+    padding: 4px 16px;
+    text-shadow: 0 1px 0 #FFEE66;
+}
+/*---------------------------------duthaovanban---------------------------*/
+.h2title
+{
+   	background:url("") 5px center no-repeat #F9F8F3;
+    padding: 4px 18px;
+    text-transform: uppercase;
+}
+/*---------------------------------danh ba dien thoai-email---------------------------*/
+.MOH_treview {
+    height: 208px;
+    margin: 0 10px;
+    overflow: auto;
+}
+/*-------------------thong tin dau tu---------------------------*/
+.menu-bd-right li{margin-bottom:4px;}
+.menu-bd-right li a {font-weight:bold;}
+.tile-boxdt{text-transform:uppercase;}
+.menu-bd-right li:hover
+{
+	background:url("") 5px center no-repeat #f1eee1;
+}
+/*--------------------------box thu tuc hanh chinh------------------------*/
+.box_kqdv
+{
+	border:1px solid #ccc;
+}
+.mgbt5
+{
+	margin-bottom:8px;
+}
+
+.kqdv
+{
+	height:140px;
+	
+}
+.content_kqdv
+{
+	height:250px;
+}
+/*ChÃº Ã½ sá»­a class ul.kqdv li{
+	- sá»­a padding thÃ nh: padding: 8px 10px;
+	- XÃ³a thuá»™c tÃ­nh: border-bottom: border-bottom:1px dashed #cccccc;
+	- XÃ³a thuá»™c tÃ­nh: list-style: decimal inside none;
+}*/
+
+.info-moibh .caroufredsel_wrapper {
+    height: 273px !important;
+    width: 238px !important;
+}
+
+.info-moibh .caroufredsel_wrapper ul{
+    width: 217px !important;
+}
+
+.othernewslist
+{
+	float:left; margin:0 10px 0 0;
+    text-align: justify;
+}
+.othernewslist ul li
+{
+	padding:5px 0;
+}
+.othernewslist ul li a
+{
+	background:url("") center left no-repeat;
+	padding-left:12px;
+}
+.othernewslist ul li a:hover
+{
+	color:#b61616;
+}
+
+/*-----------------------------------------Hotline tabs news--------------------------------------------*/
+
+.hotline-tabs
+{
+	background:url("") top left repeat-x;
+	/*height:45px;*/
+	border:1px solid #e4e4e4;
+	border-bottom:3px solid #b30202;
+    background-size: auto 100% !important;
+
+}
+.hotline-tabs-li-last
+{
+	background:none !important;
+	border-right:none;
+	float:left; 
+	/*height:45px; line-height:40px;*/
+	padding:0 5px 0 6px;
+	margin-top:2px;
+	margin-left:1px;
+    text-align: center;
+}
+
+ul.hotline-tabs li
+{
+	background:url("") right top repeat-y;
+	border-right:none;
+	float:left; 
+	/*height:45px; line-height:40px;*/
+	padding:0 5px 0 6px;
+	margin-top:2px;
+	margin-left:1px;
+    text-align: center;
+}
+
+ul.hotline-tabs li a
+{
+	color:#000; font-weight:bold;
+}
+ul.hotline-tabs li:first-child{ margin-left:2px;}
+ul.hotline-tabs li:hover a
+{
+	color:#fff;
+}
+ul.hotline-tabs li:hover 
+{
+	background:url("") bottom left repeat-x !important;
+	border-radius:3px 3px 0 0;
+	-ms-border-radius:3px 3px 0 0;
+	-moz-border-radius:3px 3px 0 0;
+	-webkit-border-radius:3px 3px 0 0;
+	-o-border-radius:3px 3px 0 0;
+	padding:0 6px 0 8px;
+    background-size: auto 100% !important;
+}
+.hotline-current a
+{
+	color:#fff !important; font-weight:bold;
+}
+.hotline-current
+{
+	background:url("") bottom left repeat-x !important;
+	border-radius:3px 3px 0 0 !important;
+	-ms-border-radius:3px 3px 0 0;
+	-moz-border-radius:3px 3px 0 0;
+	-webkit-border-radius:3px 3px 0 0;
+	-o-border-radius:3px 3px 0 0;
+    background-size: auto 100% !important;
+}
+
+/*-----------------------------------------Hotline tabs end--------------------------------------------*/
+/*-----------------------hien thi webpart panel---------------------------------*/
+#MSOTlPn_MainTD {
+    padding-left:25px;
+}
+/*-----------------------hien thi webpart panel---------------------------------*/
+/*quang thêm baner header thủ tục hành chính và trang cải cách hành chính*/
+.anhbn_TTHC
+{
+	background:url("") top right no-repeat;
+	height:108px; width:100%;
+}
+.anhbn_CCHC
+{
+	background:url("") top right no-repeat;
+	height:108px; width:100%;
+}
+.anhbn_TTBCT
+{
+	background:url("") top right no-repeat;
+	height:108px; width:100%;
+}
+
+.info-foot-TTBCT div
+{
+	padding:10px 20px 0 20px;
+}
+/*-----------------------------------------------------------------------*/
+
+
+ 
+
+
+ @media (min-width: 768px) and (max-width: 1000px) {
+	.wrapper {
+		width: 768px;
+	 } 
+ 
+ 
+	 .title-img{
+		 margin-top: -5px;
+	 }
+	 .h-menu{
+		 height: 95px !important;
+	 }
+ 
+	 .language{
+		 display: none;
+	 }
+	 .input-search{
+		 display: none;
+	 }
+ 
+	 .footer{
+		height: 30px;
+	 }
+
+	 #ctl00_Footer1 {
+		padding: 0 !important;
+	}
+	.info-foot div{
+		padding: 10px;
+	}
+ }
+
+ @media (min-width: 321px) and (max-width: 480px) {
+	.wrapper {
+		width: 320px;
+	 } 
+ 
+	 .title-img{
+		margin-top: -5px;
+		margin-left: 0px !important;
+		width: 100%;
+	 }
+	 .anhbn {
+		background: url("bg-header.png") top right no-repeat;
+		height: 108px;
+		width: 100%;
+	}
+	 .h-menu{
+		 height: 128px !important;
+	 }
+ 
+	 .language{
+		 display: none;
+	 }
+	 .input-search{
+		 display: none;
+	 }
+ 
+	 .footer{
+		height: 30px;
+	 }
+	 #ctl00_Footer1 {
+		padding: 0 !important;
+	}
+	.info-foot div{
+		padding: 10px;
+	}
+ }
+
+ @media (max-width: 320px) {
+	.wrapper {
+		width: 320px;
+	 } 
+ 
+ 
+	 .title-img{
+		margin-top: -5px;
+		margin-left: 0px !important;
+		width: 100%;
+	 }
+	 .anhbn {
+		background: url("bg-header.png") top right no-repeat;
+		height: 108px;
+		width: 100%;
+	}
+	 .h-menu{
+		 height: 128px !important;
+	 }
+ 
+	 .language{
+		 display: none;
+	 }
+	 .input-search{
+		 display: none;
+	 }
+ 
+	 .footer{
+		height: 30px;
+	 }
+	 #ctl00_Footer1 {
+		padding: 0 !important;
+	}
+	.info-foot div{
+		padding: 10px;
+	}
+ }
